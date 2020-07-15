@@ -1,5 +1,8 @@
 def my_each (array)
-  yeild
+  i = 0
+  while i < array.length
+  yield
+  i += 1
 end
 
 my each(collection){|i| puts i}
