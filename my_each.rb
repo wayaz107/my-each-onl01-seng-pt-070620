@@ -3,4 +3,3 @@ def my_each (array)
 end
 
 my each(collection){|i| puts i}
-
